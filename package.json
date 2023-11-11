@@ -1,0 +1,23 @@
+{
+  "name": "backend-prisma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.5.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "prisma": "^5.5.2"
+  }
+}
